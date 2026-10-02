@@ -1,0 +1,98 @@
+body {
+  min-width: 320px;
+  background: #f7f8fc;
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  background:
+    radial-gradient(ellipse at 80% 0%, rgba(99, 102, 241, 0.055), transparent 34rem),
+    #f7f8fc;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.table-scroll table {
+  min-width: 720px;
+}
+
+.table-scroll .table-clean {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #fff;
+  color: #334155;
+}
+
+.table-scroll .table-clean thead {
+  background-color: #f8fafc;
+  color: #64748b;
+}
+
+.table-scroll .table-clean th {
+  white-space: nowrap;
+  padding: 0.9rem 1.25rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table-scroll .table-clean td {
+  white-space: nowrap;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #f1f5f9;
+  background-color: #fff;
+}
+
+.table-scroll .table-clean tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.table-scroll .table-clean tbody tr:hover td {
+  background-color: #f8fafc;
+}
+
+.table-scroll .table-clean td:first-child,
+.table-scroll .table-clean th:first-child {
+  padding-left: 1.5rem;
+}
+
+.table-scroll .table-clean td:last-child,
+.table-scroll .table-clean th:last-child {
+  padding-right: 1.5rem;
+}
+
+.status-new {
+  border-color: #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.status-contacted {
+  border-color: #fde68a;
+  background: #fffbeb;
+  color: #b45309;
+}
+
+.status-qualified {
+  border-color: #a7f3d0;
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.status-lost {
+  border-color: #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
+}
